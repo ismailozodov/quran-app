@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Quran Application</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <nav class="site-nav">
+                <a href="#" class="site-logo-link">
+                    <img src="./images/quranlogo.svg" alt="photo" class="site-logo" width="60" height="40">
+                </a>
+                <ul class="site-nav-list">
+                    <li class="items"><a class="site-nav-link" href="#">Home</a></li>
+                    <li class="items"><a class="site-nav-link" href="#">Reciters</a></li>
+                    <li class="items bir"><a class="site-nav-link" href="#">Service</a></li>
+                    <li class="items"><a class="site-nav-link" href="#">Contacts</a></li>
+                    <li class="items"><a class="number" href="#">@freequranrecit.com</a></li>
+                </ul>
+            </nav>        
+        </div>
+        <h1 class="head2">Surah: <span class="span2" id="surahName"></span></h1>
+        <div class="dive2">
+            <input id="inputElement" type="number">
+            <button class="button" id="readAll">Play</button>
+        </div>
+        <div class="dive3">
+        <ul class="liste" id="list"></ul>
+        </div>
+    </div>
+
+    <div id="audioWrapper" style="display: none;"></div>
+
+    <script src="./index.js"></script>
+    <script src="/home.js"></script>
+</body>
+</html>
